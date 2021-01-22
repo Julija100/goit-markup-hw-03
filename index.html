@@ -9,82 +9,96 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="navigation">
-        <a class="logotype" href="./index.html" lang="en"
-          ><span class="logotype-part">Web</span>Studio</a
-        >
-        <ul class="navigation-list">
-          <li class="navigation-list-item">
-            <a class="navigation-list-link" href="#">Студия</a>
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-list-link" href="./portfolio.html"
-              >Портфолио</a
+      <div class="container">
+        <nav class="navigation">
+          <a class="logotype link" href="./index.html" lang="en"
+            ><span class="logotype-part">Web</span>Studio</a
+          >
+          <ul class="navigation-list list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link current" href="#">Студия</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts-list list">
+          <li class="header-contacts">
+            <a
+              class="header-contacts-link link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
-          <li class="navigation-list-item">
-            <a class="navigation-list-link" href="#">Контакты</a>
+          <li class="header-contacts">
+            <a class="header-contacts-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="header-contacts-list">
-        <li class="header-contacts-mail">
-          <a class="header-contacts-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contact-tel">
-          <a class="header-contacts-link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <!--HERO-->
       <section class="hero">
-        <h1 class="main-h1">Эффективные решения для вашего бизнеса</h1>
-        <button class="order-service-button" type="button">
-          Заказать услугу
-        </button>
+        <div class="container">
+          <h1 class="main-h1">Эффективные решения для вашего бизнеса</h1>
+          <button class="order-service-button" type="button">
+            Заказать услугу
+          </button>
+        </div>
       </section>
       <!--ABOUT US-->
       <section class="about-us">
-        <ul class="about-us-theme">
-          <li class="about-us-list">
-            <h3 class="about-us-h3">Внимание к деталям</h3>
-            <p class="about-us-description">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="about-us-list">
-            <h3 class="about-us-h3">Пунктуальность</h3>
-            <p class="about-us-description">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="about-us-list">
-            <h3 class="about-us-h3">Планирование</h3>
-            <p class="about-us-description">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="about-us-list">
-            <h3 class="about-us-h3">Современные технологии</h3>
-            <p class="about-us-description">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="about-us-theme">
+            <li class="about-us-list">
+              <h3 class="about-us-h3">Внимание к деталям</h3>
+              <p class="about-us-description">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="about-us-list">
+              <h3 class="about-us-h3">Пунктуальность</h3>
+              <p class="about-us-description">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="about-us-list">
+              <h3 class="about-us-h3">Планирование</h3>
+              <p class="about-us-description">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="about-us-list">
+              <h3 class="about-us-h3">Современные технологии</h3>
+              <p class="about-us-description">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--WHAT WE DO-->
       <section class="section">
@@ -168,10 +182,10 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-logotype" href="./index.html" lang="en"
-        ><span class="footer-logotype-part">Web</span>Studio</a
+      <a class="logotype" href="./index.html" lang="en"
+        ><span class="logotype-part">Web</span>Studio</a
       >
-      <address class="footer-navigation">
+      <address class="address">
         <ul class="footer-navigation-list">
           <li class="footer-navigation-list-item">
             <a
