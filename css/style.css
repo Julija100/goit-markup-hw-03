@@ -87,6 +87,10 @@ padding-bottom:24px;}
 .header-contacts-list{
   display: flex;
   align-items: center;
+  margin: auto; 
+}
+.header-contacts:first-of-type {
+  margin-right: 50px;
 }
 .logotype{
   margin-right: 93px;
@@ -121,36 +125,61 @@ padding-bottom:24px;}
   color: var(--accent-color);
 }
 
+
 /*=====HEADER END=====*/
 
 /*=====HERO=====*/
 .hero .container{
-  display: flex;
+  flex-grow: 1; 
+  background-color: aqua;
 }
+
 .main-h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  /*color: #ffffff;*/
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+ 
+}
 
   .button{
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
 }
 .order-service-button {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+position: absolute;
+width: 136px;
+height: 30px;
+left: 732px;
+top: 440px;
 
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+  
+
+}
 /*=====HERO END=====*/
 
 /*=====COMPONENTS=====*/
