@@ -50,6 +50,9 @@ img {
 }
 
 /*=====LOGOTYPE=====*/
+.header .logotype {
+  margin-right: 93px;
+}
 .logotype {
   font-family: Raleway;
   font-weight: bold;
@@ -71,7 +74,7 @@ img {
 /*=====HEADER=====*/
 .header {
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
 }
 
 .header .container {
@@ -86,10 +89,13 @@ img {
   display: flex;
   align-items: center;
 }
+.navigation-list:not(:last-child) {
+  margin-right: 50px;
+}
 .header-contacts-list {
   display: flex;
   align-items: center;
-  margin: auto;
+  margin-left: auto;
 }
 .header-contacts:first-of-type {
   margin-right: 50px;
@@ -138,6 +144,7 @@ img {
 .hero .container {
   display: flex;
   flex-direction: column;
+  padding: 200px 0;
 }
 .main-h1 {
   width: 696px;
@@ -149,7 +156,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 200px auto 0 auto;
+  margin: 0 auto;
   color: #ffffff;
 }
 
@@ -174,8 +181,8 @@ img {
 /*=====HERO END=====*/
 
 /*=====ABOUT-US=====*/
-.about-us .container {
-  margin-top: 94px;
+.about-us {
+  padding: 94px 0;
 }
 
 .about-us-theme {
@@ -210,17 +217,19 @@ img {
   justify-content: space-between;
   margin-top: 50px;
 }
+.what-we-do {
+  padding-bottom: 94px;
+}
 /*=====WHAT WE DO END=====*/
 
 /*=====OUR TEAM =======*/
 .our-team {
-  margin-top: 188px;
+  padding: 94px 0;
 }
 .our-team-list {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  margin-bottom: 94px;
 }
 .our-team-list-card {
   display: flex;
@@ -263,7 +272,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-top: 94px;
 }
 
 .our-portfolio-works {
@@ -298,7 +306,6 @@ img {
 /*=====FOOTER=====*/
 .footer .logotype {
   color: #ffffff;
-  margin-top: 60px;
 }
 .footer .container {
   display: flex;
@@ -306,6 +313,7 @@ img {
 }
 .footer {
   background: #2f303a;
+  padding: 60px 0;
 }
 .footer-navigation-list > li > a {
   font-weight: normal;
