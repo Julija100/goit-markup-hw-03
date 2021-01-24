@@ -108,7 +108,7 @@ img {
   color: var(--title-text-color);
 }
 .navigation-list-link :hover,
-:focus {
+.navigation-list-link :focus {
   color: var(--accent-color);
 }
 .navigation-list-link.current {
@@ -123,7 +123,7 @@ img {
   color: var(--primary-text-color);
 }
 .header-contacts-link :hover,
-:focus {
+.header-contacts-link :focus {
   color: var(--accent-color);
 }
 /*=====HEADER END=====*/
@@ -171,11 +171,20 @@ img {
 }
 .button-secondary {
 }
-
 /*=====HERO END=====*/
 
-/*=====COMPONENTS=====*/
+/*=====ABOUT-US=====*/
+.about-us .container {
+  margin-top: 94px;
+}
 
+.about-us-theme {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 1170px;
+  height: 101px;
+}
 .about-us-h3 {
   font-weight: bold;
   font-size: 14px;
@@ -190,22 +199,51 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-top: 10px;
 }
-.section-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.167;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
+/*=====ABOUT-US END=====*/
+
+/*=====WHAT WE DO=====*/
+
+.what-we-do-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+/*=====WHAT WE DO END=====*/
+
+/*=====OUR TEAM =======*/
+.our-team {
+  margin-top: 188px;
+}
+.our-team-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.our-team-list-card {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
+.our-team-list-card > img {
+  width: 100%;
+  height: 260px;
+}
 .our-team-peoples-names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin: 30px auto 10px auto;
 }
 .our-team-peoples-profession {
   font-weight: normal;
@@ -213,7 +251,21 @@ img {
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin: 0 auto 0 auto;
 }
+/*=====OUR TEAM END ====*/
+
+/*=====COMPONENTS=====*/
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-top: 94px;
+}
+
 .our-portfolio-works {
   font-weight: bold;
   font-size: 18px;
@@ -240,13 +292,21 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.our-portfolio-navigation-button :hover,
-:focus {
-  color: #ffffff;
-}
+
 /*=====BUTTONS END=====*/
 
 /*=====FOOTER=====*/
+.footer .logotype {
+  color: #ffffff;
+  margin-top: 60px;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background: #2f303a;
+}
 .footer-navigation-list > li > a {
   font-weight: normal;
   font-size: 14px;
@@ -256,5 +316,12 @@ img {
 }
 .footer-navigation-list > li:first-of-type > a {
   color: #ffffff;
+}
+.footer-navigation-list {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.footer-navigation-list-item {
+  margin-top: 9px;
 }
 /*=====FOOTER END=====*/
