@@ -29,6 +29,9 @@ ol {
 img {
   display: block;
 }
+button:focus {
+  outline: none;
+}
 
 .list {
   list-style: none;
@@ -177,6 +180,16 @@ img {
   justify-content: center;
 }
 .button-secondary {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: none;
+}
+.button-secondary :focus,
+.button-secondary :hover {
+  background: #188ce8;
 }
 /*=====HERO END=====*/
 
@@ -263,6 +276,34 @@ img {
   margin: 0 auto 0 auto;
 }
 /*=====OUR TEAM END ====*/
+
+/*=====PORTFOLIO=====*/
+.our-portfolio {
+  padding: 83px 0 105px 0;
+}
+.our-navigation-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.our-portfolio-list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.our-portfolio-list > li {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.our-portfolio-list-link-description {
+  padding: 20px 24px;
+}
+
+/*=====PORTFOLIO END=====*/
 
 /*=====COMPONENTS=====*/
 .section-title {
