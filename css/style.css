@@ -78,6 +78,7 @@ button:focus {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px #ececec;
 }
 
 .header .container {
@@ -365,10 +366,6 @@ button:focus {
 }
 .footer-navigation-list > li:first-of-type > a {
   color: #ffffff;
-}
-.footer-navigation-list {
-  margin-top: 20px;
-  margin-bottom: 60px;
 }
 .footer-navigation-list-item {
   margin-top: 9px;
